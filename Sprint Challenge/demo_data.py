@@ -5,6 +5,11 @@ conn = sqlite3.connect('demo_data.sqlite3')
 #cursor
 cur = conn.cursor()
 
+"""
+PART 1 Making a populating a Database
+"""
+
+
 #dropping  existing table
 cur.execute("DROP TABLE IF EXISTS demo")
 
